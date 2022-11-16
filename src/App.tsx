@@ -1,4 +1,3 @@
 import React from "react";
-export const App = () => {
-	return <h1>APP</h1>;
-};
+import { Routes } from "./routes";
+export const App = () => <Routes />;
